@@ -28,6 +28,10 @@ export class UserService {
         this.db.push(user)
         console.log('DB atualizado', this.db)
     }
+    deleteUser = () => {
+        const user = this.db.pop()
+        console.log('Deletando usuário...', user)
+    }
 
     getAllUsers = () => {
         return this.db
