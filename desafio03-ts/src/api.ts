@@ -1,4 +1,4 @@
-const conta = {
+export const conta = {
     email: 'nath@dio.bank',
     password: '123456',
     name: 'Nathaly Souza',
